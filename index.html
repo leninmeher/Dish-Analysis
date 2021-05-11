@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/f1bad283db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dish Analysis</title>
+</head>
+
+<body>
+
+    <div class="container-fluid home">
+        <h1>Dish Analysis</h1>
+        <!-- this body part and background image  -->
+        <div class="search">
+            <form id="search">
+                <input type="text" class="form-control" id="dish" placeholder="Enter the Dish Name" autocomplete="off">
+                <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+            </form>
+            <p id="error" class="error"></p>
+        </div>
+    </div>
+
+    <div class="report">
+      <p id="report-p"></p>
+    </div>
+    
+
+    <div class="card-deck row mid">
+        <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Energy</h5>
+            <hr>
+            <p class="card-text avg-e" id="energy"></p>
+            <p class="card-text m" id="eMax">Max Energy: </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Protein</h5>
+            <hr>
+            <p class="card-text avg" id="protein"></p>
+            <p class="card-text m" id="pMax">Max Protein: </p>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Fats</h5>
+            <hr>
+            <p class="card-text avg" id="fats"></p>
+            <p class="card-text m" id="fMax">Max Fat:</p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Carbs</h5>
+              <hr>
+              <p class="card-text avg" id="carbs"></p>
+              <p class="card-text m" id="cMax">Max Carbs: </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="about-wrapper row">
+      <div class="col-md-4 about-img">
+        
+      </div>
+    <div class="about col-md-8">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi maxime omnis cumque suscipit, beatae aliquam quas consequuntur ex facilis? Expedita eligendi quia quos! Numquam fugiat, ab minima consequuntur laboriosam accusamus repellat voluptatum harum aliquid laudantium commodi deleniti beatae debitis itaque alias labore libero quisquam molestiae temporibus reiciendis ea dignissimos molestias.</p>
+    </div>
+    </div>
+    
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

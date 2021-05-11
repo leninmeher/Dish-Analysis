@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.home{
+   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img.jpg);
+   height: 90vh;
+   width: 100%;
+   text-align: center;
+   background-size: cover;
+   margin-top: -10px;
+}
+.home h1{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color:#bdbdbd;
+    font-size: 50px;
+}
+.search{
+    width: 40%;
+    margin: auto;
+}
+.search button{
+    margin-top: 20px;
+    background-color: #3b444b;
+    border-color: #757575;
+    padding: 1.5% 5%;
+}
+
+.search button:hover{
+    background-color: #232b2b;
+    border-color: #757575;
+}
+
+.report{
+    padding: 4% 0;
+    background-color: #ececec;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:-30px ;
+}
+
+.mid{
+    padding:2% 5%;
+    background-color: #ececec;
+}
+
+.card{
+    margin-top: 20px;
+    height:16rem;
+    border-width: 3px;
+    border-color: #d4d4d4;
+}
+
+.avg{
+    margin-left: 38%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.m{
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+.avg-e{
+    margin-left: 24%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.card-title{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.input{
+    color: #757575;
+    background-color: #757575;
+}
+
+.about{
+    padding:2% 5%;
+    background-color: #757575;
+    color:white;
+}
+
+.about-img{
+    background-size: cover;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(ty.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.error{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+}
